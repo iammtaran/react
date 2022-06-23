@@ -54,7 +54,7 @@ function App() {
           backgroundColor:"transparent"
         }}
       >
-        <button
+        {/* <button
         
           type="button"
           // onClick={() => handleClick("en")}
@@ -103,10 +103,12 @@ function App() {
         >
           français
         </button>
-        <p>Buttons not for languages selection.Only avaliable options.</p>
+        <p>Buttons not for languages selection.Only avaliable options.</p> */}
       </nav>
     <section className='menu section'>
       <div className="title">
+        <h2 className='year'>{t("established.year")}</h2>
+        <div className='spacing'></div>
         <h2>{t("title1.title")}</h2>
         <br></br>
         <h3>{t("title1.subtitle")} </h3>
